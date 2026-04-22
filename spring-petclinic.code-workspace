@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../React/tail-feather"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"cSpell.words": [
+			"Fedoriv",
+			"Vitaliy"
+		]
+	}
+}
