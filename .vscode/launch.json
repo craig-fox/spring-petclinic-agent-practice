@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot Debug",
+      "request": "launch",
+      "mainClass": "org.springframework.samples.petclinic.PetClinicApplication",
+      "projectName": "spring-petclinic-rest"
+    }
+  ]
+}
