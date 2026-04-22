@@ -13,15 +13,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.4</version>
+        <version>4.0.5</version>
         <relativePath/> <!-- lookup parent from Maven repository -->
     </parent>
 
     <properties>
 
+        <!-- Java version -->
+        <java.version>21</java.version>
+
         <!-- Third-party libraries -->
         <spring-data-jdbc.version>1.2.1.RELEASE</spring-data-jdbc.version>
-        <springdoc-openapi-ui.version>3.0.2</springdoc-openapi-ui.version>
+        <springdoc-openapi-ui.version>3.0.3</springdoc-openapi-ui.version>
         <jackson-databind-nullable.version>0.2.10</jackson-databind-nullable.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <jaxb-api.version>2.3.1</jaxb-api.version>

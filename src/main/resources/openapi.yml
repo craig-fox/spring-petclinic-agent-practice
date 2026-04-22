@@ -1956,6 +1956,11 @@ components:
           x-field-extra-annotation: "@org.springframework.samples.petclinic.rest.validation.PetAgeValidation"
         type:
           $ref: '#/components/schemas/PetType'
+        notes:
+          title: Notes
+          description: Additional notes about the pet.
+          type: string
+          example: Very friendly and likes playing fetch
       required:
         - name
         - birthDate
